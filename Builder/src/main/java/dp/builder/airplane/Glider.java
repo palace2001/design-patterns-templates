@@ -1,7 +1,7 @@
 package dp.builder.airplane;
 
 public class Glider extends AirplaneBuilder {
-    Glider (String customer) {
+    public Glider(String customer) {
         super.customer = customer;
         super.type = "Glider v9.0";
     }

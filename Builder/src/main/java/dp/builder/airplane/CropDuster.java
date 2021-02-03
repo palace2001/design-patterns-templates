@@ -1,7 +1,7 @@
 package dp.builder.airplane;
 
 public class CropDuster extends AirplaneBuilder {
-    CropDuster (String customer){
+    public CropDuster(String customer){
         super.customer = customer;
         super.type = "Crop Duster v3.4";
     }

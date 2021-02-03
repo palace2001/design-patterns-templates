@@ -1,7 +1,7 @@
 package dp.builder.airplane;
 
 public class FighterJet extends AirplaneBuilder {
-    FighterJet (String customer){
+    public FighterJet(String customer){
         super.customer = customer;
         super.type = "F-35 Lightning II";
     }
